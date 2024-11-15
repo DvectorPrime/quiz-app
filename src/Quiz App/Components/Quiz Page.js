@@ -84,7 +84,7 @@ function QuizPage(){
         return () => {
             clearInterval(timer)
         }
-    },) 
+    }) 
 
     function displayPrevQuestion(){
         currentQuestionNo > 1 ? 
