@@ -21,7 +21,7 @@ function Info(){
         if (inSession === true){
             navigate("/quiz")
         }
-    }, [])
+    }, [navigate, inSession, userName])
 
     return (
         <div className="info">

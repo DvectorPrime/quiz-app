@@ -84,7 +84,7 @@ function QuizPage(){
         return () => {
             clearInterval(timer)
         }
-    }, [inSession, handleSubmit, navigate]) 
+    },) 
 
     function displayPrevQuestion(){
         currentQuestionNo > 1 ? 
