@@ -25,7 +25,7 @@ function Intro(){
         <div className="intro">
             <h3 className="intro--welcome">Welcome to my first major <code>React</code> project</h3>
             <h1 className="intro--h1">Government Quiz App</h1>
-            <p className="intro--cta" aria-label="userName">Enter your first name and click the button below to continue</p>
+            <p className="intro--cta" aria-label="userName">Enter your name and click the button below to continue</p>
             <input 
                 aria-labelledby="userName" 
                 className="intro--name" 
